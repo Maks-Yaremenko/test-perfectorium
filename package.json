@@ -1,0 +1,34 @@
+{
+  "name": "test_perfectorium",
+  "version": "1.0.0",
+  "description": "node js, native JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maks-Yaremenko/test-perfectorium.git"
+  },
+  "keywords": [
+    "nodeJs",
+    "native",
+    "Js"
+  ],
+  "author": "Maks Yaremenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maks-Yaremenko/test-perfectorium/issues"
+  },
+  "homepage": "https://github.com/Maks-Yaremenko/test-perfectorium#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "browser-sync": "^2.18.12",
+    "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "helmet": "^3.6.1",
+    "method-override": "^2.3.9",
+    "morgan": "^1.8.2"
+  }
+}
