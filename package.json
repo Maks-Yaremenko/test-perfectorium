@@ -31,11 +31,13 @@
     "gulp-babel": "^6.1.2",
     "gulp-browserify": "^0.5.1",
     "gulp-nodemon": "^2.2.1",
+    "gulp-notify": "^3.0.0",
     "helmet": "^3.6.1",
     "method-override": "^2.3.9",
     "morgan": "^1.8.2",
     "mysql": "^2.13.0",
     "sequelize": "^3.30.4",
+    "stream-combiner2": "^1.1.1",
     "vinyl-source-stream": "^1.1.0"
   },
   "browserify": {
