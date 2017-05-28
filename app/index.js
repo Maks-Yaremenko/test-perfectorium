@@ -14,7 +14,7 @@ require(path.join(APP_DIR, 'routes.js'))(app);
 require(path.join(APP_DIR, 'config', 'express'))(app);
 
 server.listen(conf.port, function(){
-  console.log('Express server listening on port %d in %s mode', conf.port, app.get('env'));
+  console.error(`Express server listening on port ${conf.port} in ${app.get('env')} mode'`);
 });
 
 var exports = module.exports = app;

@@ -1,2 +1,12 @@
 # ignored folders
 node_modules/
+app/public/*
+
+# ignored files
+commands.txt
+
+# passed folders
+!app/public/fonts
+
+#passed files
+!app/public/index.html

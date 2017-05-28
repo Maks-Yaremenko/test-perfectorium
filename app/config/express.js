@@ -14,6 +14,7 @@ module.exports = function (app) {
     app.use(bodyParser.json({limit: '5mb'}));
     app.use(methodOverride());
     app.set('root', config.root);
+    app.set('port', config.port);
     app.use(express.static(path.join(app.get('root'), 'app', 'public')));
     app.use(morgan('dev'));
     app.use(function(req, res, next) {
