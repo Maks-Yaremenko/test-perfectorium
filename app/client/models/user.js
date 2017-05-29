@@ -1,7 +1,8 @@
 'use strict';
 
-export class User {
-	hello () {
-		return 234234;
-	} 
+export default class User {
+	static login () { 
+		return 11234234;
+	}
+
 }

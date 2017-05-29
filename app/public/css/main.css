@@ -68,6 +68,7 @@ body {
 }
 
 .form-group .form-name {
+	text-align: left;
 	font-size: 20px;
 	font-weight: bold;
 	padding-bottom: 15px;

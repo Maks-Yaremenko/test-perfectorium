@@ -1,7 +1,7 @@
 'use strict';
 
-export class Utils {
-	hello () {
-		alert('----hello');
+export default class Utils {
+	static hello () {
+		alert('---hello');
 	}
 }
